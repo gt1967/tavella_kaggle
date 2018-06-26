@@ -7,6 +7,7 @@ RUN pip install telepot && \
     conda install tensorflow && \
     pip install --upgrade pip && \
     pip install turicreate && \
+    pip install kaggle && \
     # conda install py-xgboost && \
     # clean up pip cache
     rm -rf /root/.cache/pip/*
