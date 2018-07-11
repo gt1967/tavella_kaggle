@@ -18,8 +18,7 @@ RUN pip install telepot && \
     # conda install py-xgboost && \
     # clean up pip cache
     rm -rf /root/.cache/pip/*
-    
-# This is for the Neuronal Dynamics EPFLx Course http://neuronaldynamics.epfl.ch/lectures.html
-RUN conda create --name bmnn python=2.7 && \
+    # This is for the Neuronal Dynamics EPFLx Course http://neuronaldynamics.epfl.ch/lectures.html
+    conda create --name bmnn python=2.7 && \
     source activate bmnn && \
     conda install -c brian-team -c epfl-lcn neurodynex
