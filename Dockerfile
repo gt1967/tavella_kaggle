@@ -14,3 +14,7 @@ RUN pip install telepot && \
     # conda install py-xgboost && \
     # clean up pip cache
     rm -rf /root/.cache/pip/*
+    
+RUN conda create --name bmnn python=2.7 && \
+    source activate bmnn && \
+    conda install -c brian-team -c epfl-lcn neurodynex
