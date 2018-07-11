@@ -16,7 +16,7 @@ RUN pip install telepot && \
     pip install telepot --upgrade && \
     pip install savoir && \
     # Tensorflow needs to be reisntalled for some issue errors
-    # conda install tensorflow && \
+    conda install tensorflow && \
     pip install --upgrade pip && \
     pip install turicreate && \
     pip install kaggle && \
