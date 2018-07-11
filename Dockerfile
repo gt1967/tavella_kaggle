@@ -17,7 +17,7 @@ RUN pip install telepot && \
     wget https://orig00.deviantart.net/f170/f/2013/087/e/0/wizards_of_waverly_place_png_by_ivygo-d5zjoqx.png && \
     # conda install py-xgboost && \
     # clean up pip cache
-    rm -rf /root/.cache/pip/*
+    rm -rf /root/.cache/pip/* && \
     # This is for the Neuronal Dynamics EPFLx Course http://neuronaldynamics.epfl.ch/lectures.html
     conda create --name bmnn python=2.7 && \
     source activate bmnn && \
