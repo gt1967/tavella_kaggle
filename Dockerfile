@@ -24,6 +24,8 @@ RUN pip install telepot && \
     wget https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/resnet50_coco_best_v2.0.1.h5 && \
     wget https://orig00.deviantart.net/f170/f/2013/087/e/0/wizards_of_waverly_place_png_by_ivygo-d5zjoqx.png && \
     # conda install py-xgboost && \
-    # clean up pip cache
+    # clean up
+    rm -rf /usr/local/src/* && \
+    conda clean -i -l -t -y && \
     rm -rf /root/.cache/pip/*
     
