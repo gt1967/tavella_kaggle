@@ -29,3 +29,4 @@ RUN pip install telepot && \
     conda clean -i -l -t -y && \
     rm -rf /root/.cache/pip/*
     
+COPY kaggle.json ~/.kaggle/kaggle.json
