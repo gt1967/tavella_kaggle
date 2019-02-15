@@ -1,4 +1,4 @@
-FROM kaggle/python3:latest
+FROM kaggle/python
 
     # Scikit-Learn nightly build
 RUN cd /usr/local/src && git clone https://github.com/scikit-learn/scikit-learn.git && \
